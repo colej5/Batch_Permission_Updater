@@ -11,19 +11,25 @@ header {
     background-color: rgb(245, 243, 243);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* slight box shadow */
+    height: 100px;
 }
 .header-section {
     flex: 1;
 }
 
+.logo_H {
+    float: left;
+    height: 80px;
+  }
+
 .header-section:nth-child(2) {
     text-align: center;
-    flex: 3; /* 60% of the width */
+    flex: 2.5; /* 60% of the width */
 }
 
 .header-section:first-child,
 .header-section:last-child {
-    flex: 1; /* 20% of the width each */
+    flex: 1.5; /* 20% of the width each */
 }
 
 /* Additional styling */
@@ -252,3 +258,4 @@ input[type="submit"]:active {
     .create-full {
         color: blue;
     }
+
